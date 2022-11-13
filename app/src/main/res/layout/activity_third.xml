@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+
+    <Button
+        android:id="@+id/btnStartSecondActivity"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_x="282dp"
+        android:layout_y="670dp"
+        android:drawableLeft="@drawable/ic_baseline_change_history_24"
+        android:text="Steepness"
+        android:textSize="8sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:text="Max speed is: 17 km/h"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_below="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:text="Average speed is: 4 km/h"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_below="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:text="Max steepness is: 7 %"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_below="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:text="Average steepness is: 1 %"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnStartFirstActivity"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_x="282dp"
+        android:layout_y="670dp"
+        android:drawableLeft="@drawable/ic_baseline_speed_24"
+        android:text="Speedometer"
+        android:textSize="8sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textColor="#FFF" />
+    <Button
+        android:id="@+id/btnStartThirdActivity"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_x="282dp"
+        android:layout_y="670dp"
+        android:drawableLeft="@drawable/ic_baseline_calculate_24"
+        android:text="Statistics"
+        android:textSize="8sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFF" />
+
+</RelativeLayout>
